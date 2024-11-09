@@ -1,19 +1,21 @@
 use leptos::*;
-use crate::components::contact_btn::ContactButton;
-use crate::components::product_btn::ProductButton;
-use crate::components::home_btn::HomeButton;
-use crate::components::sign_up_btn::SignUp;
-use crate::components::sign_in_btn::SignIn;
 
 #[component]
 pub fn NavBar() -> impl IntoView{
     view!{
         <div class="navigation-buttons">
-            <HomeButton/>
+            /* <HomeButton/>
             <ProductButton/>
             <ContactButton/>
             <SignUp/>
-            <SignIn/>
+            <SignIn/> */
+            <ul class="navigation">
+                <li><a href="/">"Home"</a></li>
+                <li><a href="/products">"Products"</a></li>
+                <li><a href="/contacts">"Contact"</a></li>
+                <li><a href="/sign-up">"Sign Up"</a></li>
+                <li><a href="/sign-in">"Sign In"</a></li>
+            </ul>
         </div>
     }
 }

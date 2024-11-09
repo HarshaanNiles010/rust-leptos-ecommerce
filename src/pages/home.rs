@@ -30,8 +30,9 @@ pub fn Home() -> impl IntoView {
                 // raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_pref_dark_RGB.svg"
 
                 // raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_RGB.svg"
-
-                <h1>"Welcome to my E-commerce Website"</h1>
+                <div class="site-header">
+                    <h3>"Welcome to my E-commerce Website"</h3>
+                </div>
                 <NavBar/>
                 <div class="buttons">
                     <Button />
