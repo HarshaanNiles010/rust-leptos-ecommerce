@@ -8,7 +8,7 @@ mod pages;
 
 // Top-Level pages
 use crate::pages::home::Home;
-use crate::pages::contact::Contact;
+use crate::pages::about::About;
 use crate::pages::product::Product;
 use crate::pages::sign_up_page::sign_up_page;
 use crate::pages::sign_in_page::sign_in_page;
@@ -33,7 +33,7 @@ pub fn App() -> impl IntoView {
         <Router>
             <Routes>
                 <Route path="/" view=Home />
-                <Route path="/contacts" view=Contact />
+                <Route path="/about" view=About />
                 <Route path="/products" view=Product />
                 <Route path="/sign-up" view=sign_up_page />
                 <Route path="/sign-in" view=sign_in_page />

@@ -1,7 +1,7 @@
 use leptos::*;
 use crate::components::nav_bar_comp::NavBar;
 #[component]
-pub fn contact() -> impl IntoView {
+pub fn About() -> impl IntoView {
     view! {
         <NavBar/>
         <h1>"This is the contacts page"</h1>
