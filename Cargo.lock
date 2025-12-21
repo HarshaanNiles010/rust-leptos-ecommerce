@@ -1819,9 +1819,9 @@ checksum = "0508c56cfe9bfd5dfeb0c22ab9a6abfda2f27bdca422132e494266351ed8d83c"
 
 [[package]]
 name = "ipnet"
-version = "2.10.1"
+version = "2.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ddc24109865250148c2e0f3d25d4f0f479571723792d3802153c60922a4fb708"
+checksum = "469fb0b9cefa57e3ef31275ee7cacb78f2fdca44e4765491884a2b119d4eb130"
 
 [[package]]
 name = "itertools"
@@ -4046,9 +4046,9 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 
 [[package]]
 name = "surrealdb"
-version = "2.1.5"
+version = "2.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71cd1805c0cb6353fc242b200d79f0f6a0ab4718b7405ac173b3864fb580d27c"
+checksum = "b6aa38fb260607429f653d3ad47dea135a00a6dc1204295488ff15901b4d17d9"
 dependencies = [
  "arrayvec",
  "async-channel",
@@ -4087,9 +4087,9 @@ dependencies = [
 
 [[package]]
 name = "surrealdb-core"
-version = "2.1.5"
+version = "2.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d6f8480a81a403747c1a66ec59f65bca93e23abf6075691013242470577b5f24"
+checksum = "01eb5dd5ad759c138a307bd71420210841fa8b016478243344a9e82bb42c0bc7"
 dependencies = [
  "addr",
  "ahash 0.8.11",
@@ -4395,9 +4395,9 @@ checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
 name = "tokio"
-version = "1.41.1"
+version = "1.42.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "22cfb5bee7a6a52939ca9224d6ac897bb669134078daa8735560897f69de4d33"
+checksum = "2209a14885b74764cce87ffa777ffa1b8ce81a3f3166c6f886b83337fe7e077f"
 dependencies = [
  "backtrace",
  "bytes",
